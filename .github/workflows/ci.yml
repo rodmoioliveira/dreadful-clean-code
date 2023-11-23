@@ -1,0 +1,60 @@
+name: ci
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+jobs:
+  spell:
+    name: 'spell-check'
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Check spelling
+      uses: crate-ci/typos@master
+
+  bash-lint:
+    name: '[bash] lint'
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Install bash dependencies ${{ matrix.os }}
+      run: |
+        curl -sS https://webi.sh/shfmt | sh
+        sudo apt-get install shellcheck coreutils -y
+
+    - name: Check format bash code ${{ matrix.os }}
+      run: make bash-check
+
+    - name: Check lint bash code ${{ matrix.os }}
+      run: make bash-lint
+
+  url-check:
+    name: Check url
+    runs-on: ubuntu-latest
+    steps:
+    - name: Restore lychee cache
+      id: restore-cache
+      uses: actions/cache/restore@v3
+      with:
+        path: .lycheecache
+        key: cache-lychee-${{ github.sha }}
+        restore-keys: cache-lychee-
+
+    - name: Run lychee
+      uses: lycheeverse/lychee-action@v1.8.0
+      with:
+        args: ". --verbose --cache --max-cache-age 5d --exclude-path CHANGELOG.md"
+
+    - name: Save lychee cache
+      uses: actions/cache/save@v3
+      if: always()
+      with:
+        path: .lycheecache
+        key: ${{ steps.restore-cache.outputs.cache-primary-key }}
