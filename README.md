@@ -10,6 +10,12 @@ DCC is an awesome list of rebuttals to a dreadful idea.
 >
 > [SOLID Is OOP for Dummies](https://www.yegor256.com/2017/03/28/solid.html) by [Yegor Bugayenko](https://twitter.com/yegor256)
 
+### It closely relates to OOP and its delusional silver bullet problem-solving promises
+
+> The OO design concept initially proved valuable in the design of graphics systems, graphical user interfaces, and certain kinds of simulation. To the surprise and gradual disillusionment of many, it has proven difficult to demonstrate significant benefits of OO outside those areas.
+>
+> [Unix and Object-Oriented Languages](http://catb.org/esr/writings/taoup/html/unix_and_oo.html0) by [Eric Steven Raymond](http://www.catb.org/~esr/)
+
 ### It's horrible performance-wise
 
 > But for a certain segment of the computing industry, the answer to “why is software so slow” is in large part “because of ‘clean’ code”. The ideas underlying the “clean” code methodology are almost all horrible for performance, and you shouldn’t do them.
@@ -63,6 +69,10 @@ DCC is an awesome list of rebuttals to a dreadful idea.
 
   - [FizzBuzzEnterpriseEdition](https://github.com/EnterpriseQualityCoding/FizzBuzzEnterpriseEdition)
   - [lolzballs/HelloWorld.java](https://gist.github.com/lolzballs/2152bc0f31ee0286b722)
+
+## Object-Oriented Programming Madness
+
+  - [Unix and Object-Oriented Languages](http://catb.org/esr/writings/taoup/html/unix_and_oo.html0) by [Eric Steven Raymond](http://www.catb.org/~esr/)
 
 ## Out of the SOLID pit
 
