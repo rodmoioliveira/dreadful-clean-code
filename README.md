@@ -16,6 +16,14 @@ DCC is an awesome list of rebuttals to a dreadful idea.
 >
 > [Unix and Object-Oriented Languages](http://catb.org/esr/writings/taoup/html/unix_and_oo.html0) by [Eric Steven Raymond](http://www.catb.org/~esr/)
 
+> So I'm sorry, but for something like git, where efficiency was a primary objective, the "advantages" of C++ is just a huge mistake. The fact that we also piss off people who cannot see that is just a big additional advantage.
+>
+> If you want a VCS that is written in C++, go play with Monotone. Really. They use a "real database". They use "nice object-oriented libraries". They use "nice C++ abstractions". And quite frankly, as a result of all these design decisions that sound so appealing to some CS people, the end result is a horrible and unmaintainable mess.
+>
+> But I'm sure you'd like it more than git.
+>
+> [Linus Torvalds on C++](https://harmful.cat-v.org/software/c++/linus)
+
 ### It's horrible performance-wise
 
 > But for a certain segment of the computing industry, the answer to “why is software so slow” is in large part “because of ‘clean’ code”. The ideas underlying the “clean” code methodology are almost all horrible for performance, and you shouldn’t do them.
@@ -73,6 +81,7 @@ DCC is an awesome list of rebuttals to a dreadful idea.
 ## Object-Oriented Programming Madness
 
   - [Unix and Object-Oriented Languages](http://catb.org/esr/writings/taoup/html/unix_and_oo.html0) by [Eric Steven Raymond](http://www.catb.org/~esr/)
+  - [Linus Torvalds on C++](https://harmful.cat-v.org/software/c++/linus)
 
 ## Out of the SOLID pit
 
