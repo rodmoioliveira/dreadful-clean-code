@@ -10,11 +10,19 @@ DCC is an awesome list of rebuttals to a dreadful idea.
 >
 > [SOLID Is OOP for Dummies](https://www.yegor256.com/2017/03/28/solid.html) by [Yegor Bugayenko](https://twitter.com/yegor256)
 
-### It closely relates to OOP and its delusional silver bullet problem-solving promises
+### It closely relates to OOP and its delusional silver-bullet problem-solving promises
 
 > The OO design concept initially proved valuable in the design of graphics systems, graphical user interfaces, and certain kinds of simulation. To the surprise and gradual disillusionment of many, it has proven difficult to demonstrate significant benefits of OO outside those areas.
 >
 > [Unix and Object-Oriented Languages](http://catb.org/esr/writings/taoup/html/unix_and_oo.html0) by [Eric Steven Raymond](http://www.catb.org/~esr/)
+
+### It's a good selling product to make money
+
+> If a language technology is so bad that it creates a new industry to solve problems of its own making then it must be a good idea for the guys who want to make money. This is is the real driving force behind OOPs.
+>
+> [Why OO Sucks](https://www.cs.otago.ac.nz/staffpriv/ok/Joe-Hates-OO.htm) by [Joe Armstrong](https://twitter.com/joeerl)
+
+### It leads to horrible and unmaintainable code
 
 > So I'm sorry, but for something like git, where efficiency was a primary objective, the "advantages" of C++ is just a huge mistake. The fact that we also piss off people who cannot see that is just a big additional advantage.
 >
@@ -32,7 +40,7 @@ DCC is an awesome list of rebuttals to a dreadful idea.
 
 > The industry best practices are still revolving around the object oriented programming which does not perform well on a modern hardware.
 >
-> [The compiler will optimize that away](https://blog.royalsloth.eu/posts/the-compiler-will-optimize-that-away/) by [royalsloth](https://blog.royalsloth.eu/contact/)
+> [The compiler will optimize that away](https://blog.royalsloth.eu/posts/the-compiler-will-optimize-that-away/) by [RoyalSloth](https://blog.royalsloth.eu/contact/)
 
 ## All that is SOLID melts into air
 
@@ -47,7 +55,7 @@ DCC is an awesome list of rebuttals to a dreadful idea.
   - [SOLID Is OOP for Dummies](https://www.yegor256.com/2017/03/28/solid.html) by [Yegor Bugayenko](https://twitter.com/yegor256)
   - [The Clean Code Debacle and Rhetoric Tricks - Casey Muratori vs Mr "Uncle Bob" Martin](https://www.youtube.com/watch?v=ZLxazlP7Ppo) by [TheGingerBill](https://twitter.com/TheGingerBill)
   - [The Clean Code Debate](https://github.com/cmuratori/misc/blob/main/cleancodeqa.md) between [Casey Muratori](https://twitter.com/cmuratori) and [Robert C. Martin](https://en.wikipedia.org/wiki/Robert_C._Martin)
-  - [The compiler will optimize that away](https://blog.royalsloth.eu/posts/the-compiler-will-optimize-that-away/) by [royalsloth](https://blog.royalsloth.eu/contact/)
+  - [The compiler will optimize that away](https://blog.royalsloth.eu/posts/the-compiler-will-optimize-that-away/) by [RoyalSloth](https://blog.royalsloth.eu/contact/)
   - [Why I Don't Teach SOLID](https://qualityisspeed.blogspot.com/2014/08/why-i-dont-teach-solid.html) by [Brian Geihsler](https://twitter.com/BrianGeihsler)
 
 ### The Single-responsibility Principle
@@ -80,8 +88,9 @@ DCC is an awesome list of rebuttals to a dreadful idea.
 
 ## Object-Oriented Programming Madness
 
-  - [Unix and Object-Oriented Languages](http://catb.org/esr/writings/taoup/html/unix_and_oo.html0) by [Eric Steven Raymond](http://www.catb.org/~esr/)
   - [Linus Torvalds on C++](https://harmful.cat-v.org/software/c++/linus)
+  - [Unix and Object-Oriented Languages](http://catb.org/esr/writings/taoup/html/unix_and_oo.html0) by [Eric Steven Raymond](http://www.catb.org/~esr/)
+  - [Why OO Sucks](https://www.cs.otago.ac.nz/staffpriv/ok/Joe-Hates-OO.htm) by [Joe Armstrong](https://twitter.com/joeerl)
 
 ## Out of the SOLID pit
 
