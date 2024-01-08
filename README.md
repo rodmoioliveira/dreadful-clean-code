@@ -14,7 +14,7 @@ DCC is an awesome list of rebuttals to a dreadful idea.
 
 > The OO design concept initially proved valuable in the design of graphics systems, graphical user interfaces, and certain kinds of simulation. To the surprise and gradual disillusionment of many, it has proven difficult to demonstrate significant benefits of OO outside those areas.
 >
-> [Unix and Object-Oriented Languages](http://catb.org/esr/writings/taoup/html/unix_and_oo.html0) by [Eric Steven Raymond](http://www.catb.org/~esr/)
+> [Unix and Object-Oriented Languages](http://catb.org/esr/writings/taoup/html/unix_and_oo.html) by [Eric Steven Raymond](http://www.catb.org/~esr/)
 
 ### It's a good selling product to make money
 
@@ -88,8 +88,11 @@ DCC is an awesome list of rebuttals to a dreadful idea.
 
 ## Object-Oriented Programming Madness
 
+  - [Bad Engineering Properties of Object-Oriented Languages](https://dl.acm.org/doi/fullHtml/10.1145/242224.242415) by [Luca Cardelli](https://en.wikipedia.org/wiki/Luca_Cardelli)
+  - [Critique of Bertrand Meyer's Object Oriented Software Construction, 2nd Edition](https://web.archive.org/web/20010511003307/http://www.geocities.com/tablizer/meyer1.htm)
   - [Linus Torvalds on C++](https://harmful.cat-v.org/software/c++/linus)
-  - [Unix and Object-Oriented Languages](http://catb.org/esr/writings/taoup/html/unix_and_oo.html0) by [Eric Steven Raymond](http://www.catb.org/~esr/)
+  - [Object-Oriented Considered Harmful](https://www.iwriteiam.nl/AoP_OOCH.html) by [Frans](https://www.iwriteiam.nl/Frans.html)
+  - [Unix and Object-Oriented Languages](http://catb.org/esr/writings/taoup/html/unix_and_oo.html) by [Eric Steven Raymond](http://www.catb.org/~esr/)
   - [Why OO Sucks](https://www.cs.otago.ac.nz/staffpriv/ok/Joe-Hates-OO.htm) by [Joe Armstrong](https://twitter.com/joeerl)
 
 ## Out of the SOLID pit

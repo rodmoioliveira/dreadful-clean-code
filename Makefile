@@ -21,7 +21,7 @@ changelog: ## Autogenerate CHANGELOG.md
 	@docker run -t -v "$(shell pwd)":/app/ orhunp/git-cliff:latest --config cliff.toml --output CHANGELOG.md
 
 check-links: ## Check links
-	./dev/check-links.sh
+	@./dev/check-links.sh
 
 typos: ## Check typos
 	@typos
