@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.3.0](https://github.com/rodmoioliveira/dreadful-clean-code/compare/0.2.0...0.3.0) - 2024-03-08
+
+[7c60e44](https://github.com/rodmoioliveira/dreadful-clean-code/commit/7c60e4447160a732a63b698b92ecd2103d2ef6b9)...[c071ff8](https://github.com/rodmoioliveira/dreadful-clean-code/commit/c071ff828155812ec6cc8f24bcb455dba3707c52)
+
+### CI
+
+- [a30d2a6](https://github.com/rodmoioliveira/dreadful-clean-code/commit/a30d2a638b0093cc69bd2263e452f44337e6edbf) - Remove coreutils
+- [c071ff8](https://github.com/rodmoioliveira/dreadful-clean-code/commit/c071ff828155812ec6cc8f24bcb455dba3707c52) - Add links-mirror to Makefile
+
 ## [0.2.0](https://github.com/rodmoioliveira/dreadful-clean-code/compare/0.1.0...0.2.0) - 2024-03-08
 
 [7300c93](https://github.com/rodmoioliveira/dreadful-clean-code/commit/7300c939bcd9d9c15f6779b2b0844a72b5950cd9)...[7c60e44](https://github.com/rodmoioliveira/dreadful-clean-code/commit/7c60e4447160a732a63b698b92ecd2103d2ef6b9)
