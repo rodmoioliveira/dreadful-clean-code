@@ -20,8 +20,11 @@ bash-lint: ## Check lint bash code
 changelog: ## Autogenerate CHANGELOG.md
 	@docker run -t -v "$(shell pwd)":/app/ orhunp/git-cliff:latest --config cliff.toml --output CHANGELOG.md
 
-check-links: ## Check links
-	@./dev/check-links.sh
+links-check: ## Check links
+	@./dev/links-check.sh
+
+links-mirror: ## Mirror links
+	@./dev/links-mirror.sh
 
 typos: ## Check typos
 	@typos
@@ -35,6 +38,7 @@ typos-fix: ## Fix typos
 .PHONY: bash-fmt
 .PHONY: bash-lint
 .PHONY: changelog
-.PHONY: check-links
+.PHONY: links-check
+.PHONY: links-mirror
 .PHONY: typos
 .PHONY: typos-fix

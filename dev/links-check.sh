@@ -7,13 +7,13 @@ set -o nounset
 set -o pipefail
 set -o noclobber
 
-check-links() {
+links_check() {
   lychee . --verbose --cache --max-cache-age 5d --exclude-path CHANGELOG.md
   cat .lycheecache | sort >.lycheecache_sorted && mv .lycheecache_sorted .lycheecache
 }
 
 main() {
-  check-links
+  links_check
 }
 
 main
