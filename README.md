@@ -99,6 +99,7 @@ DCC is an awesome list of rebuttals to a dreadful idea.
 
   - [A Philosophy of Software Design - Talks at Google](https://youtu.be/bmSAYlu0NcY?si=TN2tQQ1maLMFQevK) by [John Ousterhout](https://twitter.com/JohnOusterhout)
   - [All the Little Things](https://www.youtube.com/watch?v=8bZh5LMaSmE) by [Sandi Metz](https://twitter.com/sandimetz)
+  - [Basics of the Unix Philosophy](http://catb.org/esr/writings/taoup/html/ch01s06.html) by [Eric Steven Raymond](http://www.catb.org/~esr/)
   - [Duplication is better than Wrong Abstraction](https://blog.awesomesoftwareengineer.com/p/duplication-is-better-than-wrong-abstraction) by [Ray Chong](https://substack.com/@raychongtk)
   - [The Wrong Abstraction](https://sandimetz.com/blog/2016/1/20/the-wrong-abstraction) by [Sandi Metz](https://twitter.com/sandimetz)
-  - [Write code that is easy to delete, not easy to extend.](https://programmingisterrible.com/post/139222674273/write-code-that-is-easy-to-delete-not-easy-to) by [tef](https://mastodon.social/@tef)
+  - [Write code that is easy to delete, not easy to extend](https://programmingisterrible.com/post/139222674273/write-code-that-is-easy-to-delete-not-easy-to) by [tef](https://mastodon.social/@tef)
