@@ -7,7 +7,7 @@ on:
 
 jobs:
   spell:
-    name: 'spell-check'
+    name: Spell Check
     runs-on: ubuntu-latest
     steps:
     - name: Checkout repository
@@ -17,17 +17,16 @@ jobs:
       uses: crate-ci/typos@master
 
   bash-lint:
-    name: '[bash] lint'
+    name: Bash Lint
     runs-on: ubuntu-latest
-
     steps:
     - name: Checkout repository
       uses: actions/checkout@v3
 
     - name: Install bash dependencies ${{ matrix.os }}
       run: |
-        curl -sS https://webi.sh/shfmt | sh
-        sudo apt-get install shellcheck coreutils -y
+        sudo apt-get update
+        sudo apt-get install shellcheck shfmt -y
 
     - name: Check format bash code ${{ matrix.os }}
       run: make bash-check
@@ -36,7 +35,7 @@ jobs:
       run: make bash-lint
 
   url-check:
-    name: Check url
+    name: Check Urls
     runs-on: ubuntu-latest
     steps:
     - name: Restore lychee cache
@@ -46,12 +45,10 @@ jobs:
         path: .lycheecache
         key: cache-lychee-${{ github.sha }}
         restore-keys: cache-lychee-
-
     - name: Run lychee
       uses: lycheeverse/lychee-action@v1.8.0
       with:
         args: ". --verbose --cache --max-cache-age 5d --exclude-path CHANGELOG.md"
-
     - name: Save lychee cache
       uses: actions/cache/save@v3
       if: always()
