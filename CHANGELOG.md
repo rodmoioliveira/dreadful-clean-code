@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.4.0](https://github.com/rodmoioliveira/dreadful-clean-code/compare/0.3.0...0.4.0) - 2024-03-11
+
+[c071ff8](https://github.com/rodmoioliveira/dreadful-clean-code/commit/c071ff828155812ec6cc8f24bcb455dba3707c52)...[940ff22](https://github.com/rodmoioliveira/dreadful-clean-code/commit/940ff223f167e7cd00af9b0876e64c4e56c8b955)
+
+### Features
+
+- [940ff22](https://github.com/rodmoioliveira/dreadful-clean-code/commit/940ff223f167e7cd00af9b0876e64c4e56c8b955) - Add Brian Will and Jonathan Blow videos
+
 ## [0.3.0](https://github.com/rodmoioliveira/dreadful-clean-code/compare/0.2.0...0.3.0) - 2024-03-08
 
 [7c60e44](https://github.com/rodmoioliveira/dreadful-clean-code/commit/7c60e4447160a732a63b698b92ecd2103d2ef6b9)...[c071ff8](https://github.com/rodmoioliveira/dreadful-clean-code/commit/c071ff828155812ec6cc8f24bcb455dba3707c52)
