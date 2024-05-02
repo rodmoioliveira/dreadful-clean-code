@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.5.0](https://github.com/rodmoioliveira/dreadful-clean-code/compare/0.4.0...0.5.0) - 2024-05-02
+
+[940ff22](https://github.com/rodmoioliveira/dreadful-clean-code/commit/940ff223f167e7cd00af9b0876e64c4e56c8b955)...[803f311](https://github.com/rodmoioliveira/dreadful-clean-code/commit/803f3111244fc418575224c6dec42a6369ddd9fe)
+
+### Features
+
+- [803f311](https://github.com/rodmoioliveira/dreadful-clean-code/commit/803f3111244fc418575224c6dec42a6369ddd9fe) - Add Stop overusing interfaces
+
+### Miscellaneous Tasks
+
+- [a9fb81c](https://github.com/rodmoioliveira/dreadful-clean-code/commit/a9fb81c0ca7d17b8a67ff073102f7fbbb0b475fb) - Update Luca Cardelli links
+
 ## [0.4.0](https://github.com/rodmoioliveira/dreadful-clean-code/compare/0.3.0...0.4.0) - 2024-03-11
 
 [c071ff8](https://github.com/rodmoioliveira/dreadful-clean-code/commit/c071ff828155812ec6cc8f24bcb455dba3707c52)...[940ff22](https://github.com/rodmoioliveira/dreadful-clean-code/commit/940ff223f167e7cd00af9b0876e64c4e56c8b955)
