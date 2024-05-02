@@ -53,6 +53,7 @@ DCC is an awesome list of rebuttals to a dreadful idea.
   - [SOLID Deconstruction - Slides](https://accu.org/conf-docs/PDFs_2012/Kevlin_SOLID_Deconstruction.pdf) by [Kevlin Henney](https://twitter.com/KevlinHenney)
   - [SOLID Deconstruction - Talk](https://vimeo.com/157708450) by [Kevlin Henney](https://twitter.com/KevlinHenney)
   - [SOLID Is OOP for Dummies](https://www.yegor256.com/2017/03/28/solid.html) by [Yegor Bugayenko](https://twitter.com/yegor256)
+  - [Stop overusing interfaces](https://blog.hovland.xyz/2017-04-22-stop-overusing-interfaces/) by [Tor Hovland](https://blog.hovland.xyz/)
   - [The Clean Code Debacle and Rhetoric Tricks - Casey Muratori vs Mr "Uncle Bob" Martin](https://www.youtube.com/watch?v=ZLxazlP7Ppo) by [TheGingerBill](https://twitter.com/TheGingerBill)
   - [The Clean Code Debate](https://github.com/cmuratori/misc/blob/main/cleancodeqa.md) between [Casey Muratori](https://twitter.com/cmuratori) and [Robert C. Martin](https://en.wikipedia.org/wiki/Robert_C._Martin)
   - [The compiler will optimize that away](https://blog.royalsloth.eu/posts/the-compiler-will-optimize-that-away/) by [RoyalSloth](https://blog.royalsloth.eu/contact/)
