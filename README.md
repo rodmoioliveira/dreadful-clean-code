@@ -104,5 +104,7 @@ DCC is an awesome list of rebuttals to a dreadful idea.
   - [All the Little Things](https://www.youtube.com/watch?v=8bZh5LMaSmE) by [Sandi Metz](https://twitter.com/sandimetz)
   - [Basics of the Unix Philosophy](http://catb.org/esr/writings/taoup/html/ch01s06.html) by [Eric Steven Raymond](http://www.catb.org/~esr/)
   - [Duplication is better than Wrong Abstraction](https://blog.awesomesoftwareengineer.com/p/duplication-is-better-than-wrong-abstraction) by [Ray Chong](https://substack.com/@raychongtk)
+  - [Keep things brutally simple](https://www.teamten.com/lawrence/programming/keep-things-brutally-simple.html) by [Lawrence Kesteloot](https://github.com/lkesteloot)
   - [The Wrong Abstraction](https://sandimetz.com/blog/2016/1/20/the-wrong-abstraction) by [Sandi Metz](https://twitter.com/sandimetz)
   - [Write code that is easy to delete, not easy to extend](https://programmingisterrible.com/post/139222674273/write-code-that-is-easy-to-delete-not-easy-to) by [tef](https://mastodon.social/@tef)
+  - [Write code top-down](https://www.teamten.com/lawrence/programming/write-code-top-down.html) by [Lawrence Kesteloot](https://github.com/lkesteloot)
