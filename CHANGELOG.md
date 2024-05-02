@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.6.0](https://github.com/rodmoioliveira/dreadful-clean-code/compare/0.5.0...0.6.0) - 2024-05-02
+
+[803f311](https://github.com/rodmoioliveira/dreadful-clean-code/commit/803f3111244fc418575224c6dec42a6369ddd9fe)...[31e29b7](https://github.com/rodmoioliveira/dreadful-clean-code/commit/31e29b7971b7c849193cd6e5c93c224cf478806a)
+
+### Features
+
+- [31e29b7](https://github.com/rodmoioliveira/dreadful-clean-code/commit/31e29b7971b7c849193cd6e5c93c224cf478806a) - Add articles of Lawrence Kesteloot
+
 ## [0.5.0](https://github.com/rodmoioliveira/dreadful-clean-code/compare/0.4.0...0.5.0) - 2024-05-02
 
 [940ff22](https://github.com/rodmoioliveira/dreadful-clean-code/commit/940ff223f167e7cd00af9b0876e64c4e56c8b955)...[803f311](https://github.com/rodmoioliveira/dreadful-clean-code/commit/803f3111244fc418575224c6dec42a6369ddd9fe)
