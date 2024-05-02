@@ -88,7 +88,7 @@ DCC is an awesome list of rebuttals to a dreadful idea.
 
 ## Object-Oriented Programming Madness
 
-  - [Bad Engineering Properties of Object-Oriented Languages](https://dl.acm.org/doi/fullHtml/10.1145/242224.242415) by [Luca Cardelli](https://en.wikipedia.org/wiki/Luca_Cardelli)
+  - [Bad Engineering Properties of Object-Oriented Languages](http://lucacardelli.name/Papers/BadPropertiesOfOO.html) by [Luca Cardelli](http://lucacardelli.name/)
   - [Critique of Bertrand Meyer's Object Oriented Software Construction, 2nd Edition](https://web.archive.org/web/20010511003307/http://www.geocities.com/tablizer/meyer1.htm)
   - [Linus Torvalds on C++](https://harmful.cat-v.org/software/c++/linus)
   - [Object-Oriented Considered Harmful](https://www.iwriteiam.nl/AoP_OOCH.html) by [Frans](https://www.iwriteiam.nl/Frans.html)
