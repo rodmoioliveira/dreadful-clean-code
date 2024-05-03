@@ -32,6 +32,12 @@ DCC is an awesome list of rebuttals to a dreadful idea.
 >
 > [Linus Torvalds on C++](https://harmful.cat-v.org/software/c++/linus)
 
+> I have never seen an OO principle which, if I applied it to my code, would improve it in any way. On the contrary, in my humble opinion it would make it more cumbersome, less reusable, less flexible and less maintainable.
+>
+> After reading all these OO principles and best practices I have concluded that they were written by people who have little or no experience of web-based database applications, so all their "advice" is not worth the toilet paper on which it was written. Until such time as they gain that experience and come up with ideas which are demonstrably better than mine I shall continue to ignore them.
+>
+> [Not-so-SOLID OO Principles](https://www.tonymarston.net/php-mysql/not-so-solid-oo-principles.html) by [Tony Marston](https://www.tonymarston.net/aboutme/index.php)
+
 ### It's horrible performance-wise
 
 > But for a certain segment of the computing industry, the answer to “why is software so slow” is in large part “because of ‘clean’ code”. The ideas underlying the “clean” code methodology are almost all horrible for performance, and you shouldn’t do them.
@@ -47,6 +53,7 @@ DCC is an awesome list of rebuttals to a dreadful idea.
   - ["Clean" Code, Horrible Performance](https://www.computerenhance.com/p/clean-code-horrible-performance) by [Casey Muratori](https://twitter.com/cmuratori)
   - ["Clean" Code: Horrible Performance | Full Interview](https://www.youtube.com/watch?v=OtozASk68Os) with [The Primeagen](https://www.twitch.tv/ThePrimeagen) and [Casey Muratori](https://twitter.com/cmuratori)
   - [Beyond SOLID: The Dependency Elimination Principle](https://qualityisspeed.blogspot.com/2014/09/beyond-solid-dependency-elimination.html) by [Brian Geihsler](https://twitter.com/BrianGeihsler)
+  - [Deconstructing SOLID design principles](https://www.tedinski.com/2019/04/02/solid-critique.html) by [Ted Kaminski](https://www.tedinski.com/about/)
   - [Is Uncle Bob serious?](https://dev.to/bosepchuk/is-uncle-bob-serious-dhi) by [Blaine Osepchuk](https://dev.to/bosepchuk)
   - [It's probably time to stop recommending Clean Code](https://qntm.org/clean) by [qntm](https://twitter.com/qntm)
   - [Not-so-SOLID OO Principles](https://www.tonymarston.net/php-mysql/not-so-solid-oo-principles.html) by [Tony Marston](https://www.tonymarston.net/aboutme/index.php)
