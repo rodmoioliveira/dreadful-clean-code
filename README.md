@@ -48,6 +48,12 @@ DCC is an awesome list of rebuttals to a dreadful idea.
 >
 > [The compiler will optimize that away](https://blog.royalsloth.eu/posts/the-compiler-will-optimize-that-away/) by [RoyalSloth](https://blog.royalsloth.eu/contact/)
 
+### It's just unverifiable and unfalsifiable
+
+> The "Clean code" ideals are a succinct offender. Appealing mostly to vague, unverifiable, and unfalsifiable measures of how good code looks, or how easy it is to read and understand. It forgets the physical foundations of our computing systems. Preferring subjective appreciations of "cleanliness", supposed to make the practice of software programming more appealing to the engineer, as opposed to trying to provide the best possible technology to the users.
+>
+> [Lack of Falsifiability in Software Engineering](https://vferrari.cl/blog/) by [Vicente Ferrari Smith](https://vferrari.cl/)
+
 ## All that is SOLID melts into air
 
   - ["Clean" Code, Horrible Performance](https://www.computerenhance.com/p/clean-code-horrible-performance) by [Casey Muratori](https://twitter.com/cmuratori)
@@ -56,6 +62,7 @@ DCC is an awesome list of rebuttals to a dreadful idea.
   - [Deconstructing SOLID design principles](https://www.tedinski.com/2019/04/02/solid-critique.html) by [Ted Kaminski](https://www.tedinski.com/about/)
   - [Is Uncle Bob serious?](https://dev.to/bosepchuk/is-uncle-bob-serious-dhi) by [Blaine Osepchuk](https://dev.to/bosepchuk)
   - [It's probably time to stop recommending Clean Code](https://qntm.org/clean) by [qntm](https://twitter.com/qntm)
+  - [Lack of Falsifiability in Software Engineering](https://vferrari.cl/blog/) by [Vicente Ferrari Smith](https://vferrari.cl/)
   - [Not-so-SOLID OO Principles](https://www.tonymarston.net/php-mysql/not-so-solid-oo-principles.html) by [Tony Marston](https://www.tonymarston.net/aboutme/index.php)
   - [SOLID Deconstruction - Slides](https://accu.org/conf-docs/PDFs_2012/Kevlin_SOLID_Deconstruction.pdf) by [Kevlin Henney](https://twitter.com/KevlinHenney)
   - [SOLID Deconstruction - Talk](https://vimeo.com/157708450) by [Kevlin Henney](https://twitter.com/KevlinHenney)
