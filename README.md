@@ -108,6 +108,7 @@ DCC is an awesome list of rebuttals to a dreadful idea.
   - [Linus Torvalds on C++](https://harmful.cat-v.org/software/c++/linus)
   - [Object-Oriented Considered Harmful](https://www.iwriteiam.nl/AoP_OOCH.html) by [Frans](https://www.iwriteiam.nl/Frans.html)
   - [Object-Oriented Programming is Bad](https://youtu.be/QM1iUe6IofM) by [Brian Will](https://brianwill.github.io/)
+  - [The Problem with Object-Oriented Programming](https://youtu.be/jyol7J1nlp8) by [Navdeep Singh](https://www.linkedin.com/in/navdeep-singh-3aaa14161/)
   - [Unix and Object-Oriented Languages](http://catb.org/esr/writings/taoup/html/unix_and_oo.html) by [Eric Steven Raymond](http://www.catb.org/~esr/)
   - [What went wrong in software development](https://youtu.be/KcP1fXQv0iU) by [Jonathan Blow](https://twitter.com/Jonathan_Blow)
   - [Why OO Sucks](https://www.cs.otago.ac.nz/staffpriv/ok/Joe-Hates-OO.htm) by [Joe Armstrong](https://twitter.com/joeerl)
