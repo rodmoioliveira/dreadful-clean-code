@@ -23,7 +23,9 @@ index() {
         grep -E '^#{1,} [A-Z]' |
         sed 's/#//g' |
         sed -E 's/^ {1,}//g' |
-        sed -E "s@[?,'/]@@g" |
+        # https://www.gnu.org/software/grep/manual/html_node/Character-Classes-and-Bracket-Expressions.html
+        sed -E "s1[][!#$%&'()*+,./:;<=>?@\\^_\`{|}~]11g" |
+        sed -E 's/"//g' |
         sed 's/[A-Z]/\L&/g' |
         sed 's/ /-/g' |
         sed -E 's@(.+)@(#\1)@g'
