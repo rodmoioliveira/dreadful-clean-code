@@ -17,8 +17,11 @@ bash-check: ## Check format bash code
 bash-lint: ## Check lint bash code
 	@find . -type f -name "*.sh" | xargs shellcheck -o all
 
-changelog: ## Autogenerate CHANGELOG.md
-	@docker run -t -v "$(shell pwd)":/app/ orhunp/git-cliff:latest --config cliff.toml --output CHANGELOG.md
+doc-readme: ## Write README.md
+	@./dev/doc-readme.sh
+
+doc-changelog: ## Write CHANGELOG.mode
+	@git cliff -o CHANGELOG.md
 
 links-check: ## Check links
 	@./dev/links-check.sh
@@ -37,7 +40,8 @@ typos-fix: ## Fix typos
 .PHONY: bash-check
 .PHONY: bash-fmt
 .PHONY: bash-lint
-.PHONY: changelog
+.PHONY: doc-changelog
+.PHONY: doc-readme
 .PHONY: links-check
 .PHONY: links-mirror
 .PHONY: typos
