@@ -1,25 +1,25 @@
 # dreadful clean code
 
-*Dreadful Clean Code* is an awesome list of rebuttals to a dreadful idea.
+_Dreadful Clean Code_ is an awesome list of rebuttals to a dreadful idea.
 
 # index
 
-  - [Hot takes for lazy readers](#hot-takes-for-lazy-readers)
-    - [It's just marketing](#its-just-marketing)
-    - [It closely relates to OOP and its delusional silver-bullet problem-solving promises](#it-closely-relates-to-oop-and-its-delusional-silver-bullet-problem-solving-promises)
-    - [It's a good selling product to make money](#its-a-good-selling-product-to-make-money)
-    - [It leads to horrible and unmaintainable code](#it-leads-to-horrible-and-unmaintainable-code)
-    - [It's horrible performance-wise](#its-horrible-performance-wise)
-    - [It's just unverifiable and unfalsifiable](#its-just-unverifiable-and-unfalsifiable)
-  - [All that is SOLID melts into air](#all-that-is-solid-melts-into-air)
-    - [The Single-responsibility Principle](#the-single-responsibility-principle)
-    - [The Open/Close Principle](#the-openclose-principle)
-    - [Liskov Substitution Principle](#liskov-substitution-principle)
-    - [Interface Segregation Principle](#interface-segregation-principle)
-    - [Dependency Inversion Principle](#dependency-inversion-principle)
-  - [Clean Code Madness](#clean-code-madness)
-  - [Object-Oriented Programming Madness](#object-oriented-programming-madness)
-  - [Out of the SOLID pit](#out-of-the-solid-pit)
+- [Hot takes for lazy readers](#hot-takes-for-lazy-readers)
+  - [It's just marketing](#its-just-marketing)
+  - [It closely relates to OOP and its delusional silver-bullet problem-solving promises](#it-closely-relates-to-oop-and-its-delusional-silver-bullet-problem-solving-promises)
+  - [It's a good selling product to make money](#its-a-good-selling-product-to-make-money)
+  - [It leads to horrible and unmaintainable code](#it-leads-to-horrible-and-unmaintainable-code)
+  - [It's horrible performance-wise](#its-horrible-performance-wise)
+  - [It's just unverifiable and unfalsifiable](#its-just-unverifiable-and-unfalsifiable)
+- [All that is SOLID melts into air](#all-that-is-solid-melts-into-air)
+  - [The Single-responsibility Principle](#the-single-responsibility-principle)
+  - [The Open/Close Principle](#the-openclose-principle)
+  - [Liskov Substitution Principle](#liskov-substitution-principle)
+  - [Interface Segregation Principle](#interface-segregation-principle)
+  - [Dependency Inversion Principle](#dependency-inversion-principle)
+- [Clean Code Madness](#clean-code-madness)
+- [Object-Oriented Programming Madness](#object-oriented-programming-madness)
+- [Out of the SOLID pit](#out-of-the-solid-pit)
 
 # Hot takes for lazy readers
 
@@ -91,86 +91,86 @@
 
 [back^](#index)
 
-  - ["Clean" Code, Horrible Performance](https://www.computerenhance.com/p/clean-code-horrible-performance) by [Casey Muratori](https://twitter.com/cmuratori)
-  - ["Clean" Code: Horrible Performance | Full Interview](https://www.youtube.com/watch?v=OtozASk68Os) with [The Primeagen](https://www.twitch.tv/ThePrimeagen) and [Casey Muratori](https://twitter.com/cmuratori)
-  - [Beyond SOLID: The Dependency Elimination Principle](https://qualityisspeed.blogspot.com/2014/09/beyond-solid-dependency-elimination.html) by [Brian Geihsler](https://twitter.com/BrianGeihsler)
-  - [Deconstructing SOLID design principles](https://www.tedinski.com/2019/04/02/solid-critique.html) by [Ted Kaminski](https://www.tedinski.com/about/)
-  - [Is Uncle Bob serious?](https://dev.to/bosepchuk/is-uncle-bob-serious-dhi) by [Blaine Osepchuk](https://dev.to/bosepchuk)
-  - [It's probably time to stop recommending Clean Code](https://qntm.org/clean) by [qntm](https://twitter.com/qntm)
-  - [Lack of Falsifiability in Software Engineering](https://vferrari.cl/blog/) by [Vicente Ferrari Smith](https://vferrari.cl/)
-  - [Not-so-SOLID OO Principles](https://www.tonymarston.net/php-mysql/not-so-solid-oo-principles.html) by [Tony Marston](https://www.tonymarston.net/aboutme/index.php)
-  - [SOLID Deconstruction - Slides](https://accu.org/conf-docs/PDFs_2012/Kevlin_SOLID_Deconstruction.pdf) by [Kevlin Henney](https://twitter.com/KevlinHenney)
-  - [SOLID Deconstruction - Talk](https://vimeo.com/157708450) by [Kevlin Henney](https://twitter.com/KevlinHenney)
-  - [SOLID Is OOP for Dummies](https://www.yegor256.com/2017/03/28/solid.html) by [Yegor Bugayenko](https://twitter.com/yegor256)
-  - [Stop overusing interfaces](https://blog.hovland.xyz/2017-04-22-stop-overusing-interfaces/) by [Tor Hovland](https://blog.hovland.xyz/)
-  - [The Clean Code Debacle and Rhetoric Tricks - Casey Muratori vs Mr "Uncle Bob" Martin](https://www.youtube.com/watch?v=ZLxazlP7Ppo) by [TheGingerBill](https://twitter.com/TheGingerBill)
-  - [The Clean Code Debate](https://github.com/cmuratori/misc/blob/main/cleancodeqa.md) between [Casey Muratori](https://twitter.com/cmuratori) and [Robert C. Martin](https://en.wikipedia.org/wiki/Robert_C._Martin)
-  - [The compiler will optimize that away](https://blog.royalsloth.eu/posts/the-compiler-will-optimize-that-away/) by [RoyalSloth](https://blog.royalsloth.eu/contact/)
-  - [Why I Don't Teach SOLID](https://qualityisspeed.blogspot.com/2014/08/why-i-dont-teach-solid.html) by [Brian Geihsler](https://twitter.com/BrianGeihsler)
+- ["Clean" Code, Horrible Performance](https://www.computerenhance.com/p/clean-code-horrible-performance) by [Casey Muratori](https://twitter.com/cmuratori)
+- ["Clean" Code: Horrible Performance | Full Interview](https://www.youtube.com/watch?v=OtozASk68Os) with [The Primeagen](https://www.twitch.tv/ThePrimeagen) and [Casey Muratori](https://twitter.com/cmuratori)
+- [Beyond SOLID: The Dependency Elimination Principle](https://qualityisspeed.blogspot.com/2014/09/beyond-solid-dependency-elimination.html) by [Brian Geihsler](https://twitter.com/BrianGeihsler)
+- [Deconstructing SOLID design principles](https://www.tedinski.com/2019/04/02/solid-critique.html) by [Ted Kaminski](https://www.tedinski.com/about/)
+- [Is Uncle Bob serious?](https://dev.to/bosepchuk/is-uncle-bob-serious-dhi) by [Blaine Osepchuk](https://dev.to/bosepchuk)
+- [It's probably time to stop recommending Clean Code](https://qntm.org/clean) by [qntm](https://twitter.com/qntm)
+- [Lack of Falsifiability in Software Engineering](https://vferrari.cl/blog/) by [Vicente Ferrari Smith](https://vferrari.cl/)
+- [Not-so-SOLID OO Principles](https://www.tonymarston.net/php-mysql/not-so-solid-oo-principles.html) by [Tony Marston](https://www.tonymarston.net/aboutme/index.php)
+- [SOLID Deconstruction - Slides](https://accu.org/conf-docs/PDFs_2012/Kevlin_SOLID_Deconstruction.pdf) by [Kevlin Henney](https://twitter.com/KevlinHenney)
+- [SOLID Deconstruction - Talk](https://vimeo.com/157708450) by [Kevlin Henney](https://twitter.com/KevlinHenney)
+- [SOLID Is OOP for Dummies](https://www.yegor256.com/2017/03/28/solid.html) by [Yegor Bugayenko](https://twitter.com/yegor256)
+- [Stop overusing interfaces](https://blog.hovland.xyz/2017-04-22-stop-overusing-interfaces/) by [Tor Hovland](https://blog.hovland.xyz/)
+- [The Clean Code Debacle and Rhetoric Tricks - Casey Muratori vs Mr "Uncle Bob" Martin](https://www.youtube.com/watch?v=ZLxazlP7Ppo) by [TheGingerBill](https://twitter.com/TheGingerBill)
+- [The Clean Code Debate](https://github.com/cmuratori/misc/blob/main/cleancodeqa.md) between [Casey Muratori](https://twitter.com/cmuratori) and [Robert C. Martin](https://en.wikipedia.org/wiki/Robert_C._Martin)
+- [The compiler will optimize that away](https://blog.royalsloth.eu/posts/the-compiler-will-optimize-that-away/) by [RoyalSloth](https://blog.royalsloth.eu/contact/)
+- [Why I Don't Teach SOLID](https://qualityisspeed.blogspot.com/2014/08/why-i-dont-teach-solid.html) by [Brian Geihsler](https://twitter.com/BrianGeihsler)
 
 ## The Single-responsibility Principle
 
 [back^](#index)
 
-  - [Examining the Single Responsibility Principle](https://naildrivin5.com/blog/2019/11/11/solid-is-not-solid-rexamining-the-single-responsibility-principle.html) by [David Bryant Copeland](https://naildrivin5.com/bio/index.html)
-  - [I don't love the single responsibility principle](https://sklivvz.com/posts/i-dont-love-the-single-responsibility-principle) by [Marco Cecconi](https://twitter.com/sklivvz)
-  - [Repeat yourself, do more than one thing, and rewrite everything](https://programmingisterrible.com/post/176657481103/repeat-yourself-do-more-than-one-thing-and) by [tef](https://mastodon.social/@tef)
+- [Examining the Single Responsibility Principle](https://naildrivin5.com/blog/2019/11/11/solid-is-not-solid-rexamining-the-single-responsibility-principle.html) by [David Bryant Copeland](https://naildrivin5.com/bio/index.html)
+- [I don't love the single responsibility principle](https://sklivvz.com/posts/i-dont-love-the-single-responsibility-principle) by [Marco Cecconi](https://twitter.com/sklivvz)
+- [Repeat yourself, do more than one thing, and rewrite everything](https://programmingisterrible.com/post/176657481103/repeat-yourself-do-more-than-one-thing-and) by [tef](https://mastodon.social/@tef)
 
 ## The Open/Close Principle
 
 [back^](#index)
 
-  - [Say "No" to the Open/Closed pattern](https://sklivvz.com/posts/say-no-to-the-openclosed-pattern) by [Marco Cecconi](https://twitter.com/sklivvz)
-  - [The Open/Close Principle is Confusing and, well, Wrong](https://naildrivin5.com/blog/2019/11/14/open-closed-principle-is-confusing-and-well-wrong.html) by [David Bryant Copeland](https://naildrivin5.com/bio/index.html)
+- [Say "No" to the Open/Closed pattern](https://sklivvz.com/posts/say-no-to-the-openclosed-pattern) by [Marco Cecconi](https://twitter.com/sklivvz)
+- [The Open/Close Principle is Confusing and, well, Wrong](https://naildrivin5.com/blog/2019/11/14/open-closed-principle-is-confusing-and-well-wrong.html) by [David Bryant Copeland](https://naildrivin5.com/bio/index.html)
 
 ## Liskov Substitution Principle
 
 [back^](#index)
 
-  - [Liskov Substitution Principle is…Not a Design Principle](https://naildrivin5.com/blog/2019/11/18/liskov-substitution-principle-is-not-a-design-principle.html) by [David Bryant Copeland](https://naildrivin5.com/bio/index.html)
+- [Liskov Substitution Principle is…Not a Design Principle](https://naildrivin5.com/blog/2019/11/18/liskov-substitution-principle-is-not-a-design-principle.html) by [David Bryant Copeland](https://naildrivin5.com/bio/index.html)
 
 ## Interface Segregation Principle
 
 [back^](#index)
 
-  - [Interface Segregation Principle is Unhelpful but Inoffensive](https://naildrivin5.com/blog/2019/11/21/interface-segreation-principle-is-unhelpful-but-inoffensive.html) by [David Bryant Copeland](https://naildrivin5.com/bio/index.html)
+- [Interface Segregation Principle is Unhelpful but Inoffensive](https://naildrivin5.com/blog/2019/11/21/interface-segreation-principle-is-unhelpful-but-inoffensive.html) by [David Bryant Copeland](https://naildrivin5.com/bio/index.html)
 
 ## Dependency Inversion Principle
 
 [back^](#index)
 
-  - [Dependency Inversion Principle…is a Tradeoff](https://naildrivin5.com/blog/2019/12/02/dependency-inversion-principle-is-a-tradeoff.html) by [David Bryant Copeland](https://naildrivin5.com/bio/index.html)
+- [Dependency Inversion Principle…is a Tradeoff](https://naildrivin5.com/blog/2019/12/02/dependency-inversion-principle-is-a-tradeoff.html) by [David Bryant Copeland](https://naildrivin5.com/bio/index.html)
 
 # Clean Code Madness
 
 [back^](#index)
 
-  - [FizzBuzzEnterpriseEdition](https://github.com/EnterpriseQualityCoding/FizzBuzzEnterpriseEdition)
-  - [lolzballs/HelloWorld.java](https://gist.github.com/lolzballs/2152bc0f31ee0286b722)
+- [FizzBuzzEnterpriseEdition](https://github.com/EnterpriseQualityCoding/FizzBuzzEnterpriseEdition)
+- [lolzballs/HelloWorld.java](https://gist.github.com/lolzballs/2152bc0f31ee0286b722)
 
 # Object-Oriented Programming Madness
 
 [back^](#index)
 
-  - [Bad Engineering Properties of Object-Oriented Languages](http://lucacardelli.name/Papers/BadPropertiesOfOO.html) by [Luca Cardelli](http://lucacardelli.name/)
-  - [Critique of Bertrand Meyer's Object Oriented Software Construction, 2nd Edition](https://web.archive.org/web/20010511003307/http://www.geocities.com/tablizer/meyer1.htm)
-  - [Linus Torvalds on C++](https://harmful.cat-v.org/software/c++/linus)
-  - [Object-Oriented Considered Harmful](https://www.iwriteiam.nl/AoP_OOCH.html) by [Frans](https://www.iwriteiam.nl/Frans.html)
-  - [Object-Oriented Programming is Bad](https://youtu.be/QM1iUe6IofM) by [Brian Will](https://brianwill.github.io/)
-  - [The Problem with Object-Oriented Programming](https://youtu.be/jyol7J1nlp8) by [Navdeep Singh](https://www.linkedin.com/in/navdeep-singh-3aaa14161/)
-  - [Unix and Object-Oriented Languages](http://catb.org/esr/writings/taoup/html/unix_and_oo.html) by [Eric Steven Raymond](http://www.catb.org/~esr/)
-  - [What went wrong in software development](https://youtu.be/KcP1fXQv0iU) by [Jonathan Blow](https://twitter.com/Jonathan_Blow)
-  - [Why OO Sucks](https://www.cs.otago.ac.nz/staffpriv/ok/Joe-Hates-OO.htm) by [Joe Armstrong](https://twitter.com/joeerl)
+- [Bad Engineering Properties of Object-Oriented Languages](http://lucacardelli.name/Papers/BadPropertiesOfOO.html) by [Luca Cardelli](http://lucacardelli.name/)
+- [Critique of Bertrand Meyer's Object Oriented Software Construction, 2nd Edition](https://web.archive.org/web/20010511003307/http://www.geocities.com/tablizer/meyer1.htm)
+- [Linus Torvalds on C++](https://harmful.cat-v.org/software/c++/linus)
+- [Object-Oriented Considered Harmful](https://www.iwriteiam.nl/AoP_OOCH.html) by [Frans](https://www.iwriteiam.nl/Frans.html)
+- [Object-Oriented Programming is Bad](https://youtu.be/QM1iUe6IofM) by [Brian Will](https://brianwill.github.io/)
+- [The Problem with Object-Oriented Programming](https://youtu.be/jyol7J1nlp8) by [Navdeep Singh](https://www.linkedin.com/in/navdeep-singh-3aaa14161/)
+- [Unix and Object-Oriented Languages](http://catb.org/esr/writings/taoup/html/unix_and_oo.html) by [Eric Steven Raymond](http://www.catb.org/~esr/)
+- [What went wrong in software development](https://youtu.be/KcP1fXQv0iU) by [Jonathan Blow](https://twitter.com/Jonathan_Blow)
+- [Why OO Sucks](https://www.cs.otago.ac.nz/staffpriv/ok/Joe-Hates-OO.htm) by [Joe Armstrong](https://twitter.com/joeerl)
 
 # Out of the SOLID pit
 
 [back^](#index)
 
-  - [A Philosophy of Software Design - Talks at Google](https://youtu.be/bmSAYlu0NcY?si=TN2tQQ1maLMFQevK) by [John Ousterhout](https://twitter.com/JohnOusterhout)
-  - [All the Little Things](https://www.youtube.com/watch?v=8bZh5LMaSmE) by [Sandi Metz](https://twitter.com/sandimetz)
-  - [Basics of the Unix Philosophy](http://catb.org/esr/writings/taoup/html/ch01s06.html) by [Eric Steven Raymond](http://www.catb.org/~esr/)
-  - [Duplication is better than Wrong Abstraction](https://blog.awesomesoftwareengineer.com/p/duplication-is-better-than-wrong-abstraction) by [Ray Chong](https://substack.com/@raychongtk)
-  - [Keep things brutally simple](https://www.teamten.com/lawrence/programming/keep-things-brutally-simple.html) by [Lawrence Kesteloot](https://github.com/lkesteloot)
-  - [The Wrong Abstraction](https://sandimetz.com/blog/2016/1/20/the-wrong-abstraction) by [Sandi Metz](https://twitter.com/sandimetz)
-  - [Write code that is easy to delete, not easy to extend](https://programmingisterrible.com/post/139222674273/write-code-that-is-easy-to-delete-not-easy-to) by [tef](https://mastodon.social/@tef)
-  - [Write code top-down](https://www.teamten.com/lawrence/programming/write-code-top-down.html) by [Lawrence Kesteloot](https://github.com/lkesteloot)
+- [A Philosophy of Software Design - Talks at Google](https://youtu.be/bmSAYlu0NcY?si=TN2tQQ1maLMFQevK) by [John Ousterhout](https://twitter.com/JohnOusterhout)
+- [All the Little Things](https://www.youtube.com/watch?v=8bZh5LMaSmE) by [Sandi Metz](https://twitter.com/sandimetz)
+- [Basics of the Unix Philosophy](http://catb.org/esr/writings/taoup/html/ch01s06.html) by [Eric Steven Raymond](http://www.catb.org/~esr/)
+- [Duplication is better than Wrong Abstraction](https://blog.awesomesoftwareengineer.com/p/duplication-is-better-than-wrong-abstraction) by [Ray Chong](https://substack.com/@raychongtk)
+- [Keep things brutally simple](https://www.teamten.com/lawrence/programming/keep-things-brutally-simple.html) by [Lawrence Kesteloot](https://github.com/lkesteloot)
+- [The Wrong Abstraction](https://sandimetz.com/blog/2016/1/20/the-wrong-abstraction) by [Sandi Metz](https://twitter.com/sandimetz)
+- [Write code that is easy to delete, not easy to extend](https://programmingisterrible.com/post/139222674273/write-code-that-is-easy-to-delete-not-easy-to) by [tef](https://mastodon.social/@tef)
+- [Write code top-down](https://www.teamten.com/lawrence/programming/write-code-top-down.html) by [Lawrence Kesteloot](https://github.com/lkesteloot)
