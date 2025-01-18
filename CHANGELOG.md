@@ -75,5 +75,3 @@
 - [e8efff7](https://github.com/rodmoioliveira/dreadful-clean-code/commit/e8efff709fb02013e86a273f6e7a058450ce1639) - Add Linus Torvalds on C++
 - [4f37b7d](https://github.com/rodmoioliveira/dreadful-clean-code/commit/4f37b7db219ea14a54261d8a86e6ec5474a98a78) - Add Why OO Sucks
 - [7300c93](https://github.com/rodmoioliveira/dreadful-clean-code/commit/7300c939bcd9d9c15f6779b2b0844a72b5950cd9) - Add links to Object-Oriented Programming Madness
-
-
