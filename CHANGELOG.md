@@ -1,5 +1,22 @@
 # Changelog
 
+## [0.8.0](https://github.com/rodmoioliveira/dreadful-clean-code/compare/0.7.1...0.8.0) - 2025-01-18
+
+[5369826](https://github.com/rodmoioliveira/dreadful-clean-code/commit/5369826e6effed6456280aca74ab6673fb44d05c)...[6eae6ab](https://github.com/rodmoioliveira/dreadful-clean-code/commit/6eae6abdc6dadb803df617e394cec2ef549ec220)
+
+### Bug Fixes
+
+- [519fd46](https://github.com/rodmoioliveira/dreadful-clean-code/commit/519fd46400b3d863246143c90d990ff7db28850f) - Add LC_ALL=C to sort
+
+### CI
+
+- [297d0e8](https://github.com/rodmoioliveira/dreadful-clean-code/commit/297d0e8988a77bec804bf8f074f079d61746c6d6) - Add dprint step
+
+### Miscellaneous Tasks
+
+- [f34fac9](https://github.com/rodmoioliveira/dreadful-clean-code/commit/f34fac90b76486adef2950691e0b044b539da1a4) - Enhance index function
+- [6eae6ab](https://github.com/rodmoioliveira/dreadful-clean-code/commit/6eae6abdc6dadb803df617e394cec2ef549ec220) - Run dprint fmt
+
 ## [0.7.1](https://github.com/rodmoioliveira/dreadful-clean-code/compare/0.7.0...0.7.1) - 2024-10-22
 
 [197f013](https://github.com/rodmoioliveira/dreadful-clean-code/commit/197f013399555580b06237909ec1f03ef46eda62)...[5369826](https://github.com/rodmoioliveira/dreadful-clean-code/commit/5369826e6effed6456280aca74ab6673fb44d05c)
