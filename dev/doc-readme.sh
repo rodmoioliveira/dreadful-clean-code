@@ -171,6 +171,7 @@ EOF
 
   sed -i -E '/^make\[[0-9]/d' README.md
   backlink
+  dprint fmt README.md CHANGELOG.md
 }
 
 trap readme EXIT

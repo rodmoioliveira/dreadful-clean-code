@@ -9,3 +9,7 @@ disable=SC2312
 # Useless cat. Consider 'cmd < file...
 # https://github.com/koalaman/shellcheck/wiki/SC2002
 disable=SC2002
+
+# This is a unicode quote. Delete and retype it (or ignore/singlequote for literal).
+# https://github.com/koalaman/shellcheck/wiki/SC1111
+disable=SC1111

@@ -4,53 +4,65 @@ on:
   push:
     branches:
       - main
-
+  schedule:
+    - cron: "00 01 */5 * *"
+permissions:
+  contents: read
 jobs:
-  spell:
-    name: Spell Check
+  makefile-descriptions:
+    name: "makefile-descriptions"
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v3
-
-    - name: Check spelling
-      uses: crate-ci/typos@master
-
-  bash-lint:
-    name: Bash Lint
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Check Makefile
+        run: make makefile-descriptions
+  typos:
+    name: "typos"
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v3
-
-    - name: Install bash dependencies ${{ matrix.os }}
-      run: |
-        sudo apt-get update
-        sudo apt-get install shellcheck shfmt -y
-
-    - name: Check format bash code ${{ matrix.os }}
-      run: make bash-check
-
-    - name: Check lint bash code ${{ matrix.os }}
-      run: make bash-lint
-
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Check spelling
+        uses: crate-ci/typos@master
+  bash:
+    name: "bash"
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Install bash dependencies ${{ matrix.os }}
+        run: |
+          curl -sS https://webi.sh/shfmt | sh
+          sudo apt-get install shellcheck coreutils -y
+      - name: Check format bash code ${{ matrix.os }}
+        run: make bash-check
+      - name: Check lint bash code ${{ matrix.os }}
+        run: make bash-lint
+  dprint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: dprint-check-action
+        uses: dprint/check@v2.2
   url-check:
     name: Check Urls
     runs-on: ubuntu-latest
     steps:
     - name: Restore lychee cache
       id: restore-cache
-      uses: actions/cache/restore@v3
+      uses: actions/cache/restore@v4
       with:
         path: .lycheecache
         key: cache-lychee-${{ github.sha }}
         restore-keys: cache-lychee-
     - name: Run lychee
-      uses: lycheeverse/lychee-action@v1.8.0
+      uses: lycheeverse/lychee-action@v2
       with:
-        args: ". --verbose --cache --max-cache-age 5d --exclude-path CHANGELOG.md"
+        args: ". --verbose --cache --max-cache-age 2d --exclude-path CHANGELOG.md"
     - name: Save lychee cache
-      uses: actions/cache/save@v3
+      uses: actions/cache/save@v4
       if: always()
       with:
         path: .lycheecache
