@@ -7,13 +7,21 @@ set -o nounset
 set -o pipefail
 set -o noclobber
 
-links_check() {
-  lychee . --verbose --cache --max-cache-age 5d --exclude-path CHANGELOG.md
+links-check() {
+  lychee \
+    --cache \
+    --max-cache-age 5d \
+    --base 'https://github.com/rodmoioliveira/dreadful-clean-code' \
+    --verbose \
+    --no-progress \
+    --exclude-path CHANGELOG.md \
+    --exclude '(linkedin|substack)' \
+    './**/*.md'
   cat .lycheecache | sort >.lycheecache_sorted && mv .lycheecache_sorted .lycheecache
 }
 
 main() {
-  links_check
+  links-check
 }
 
 main

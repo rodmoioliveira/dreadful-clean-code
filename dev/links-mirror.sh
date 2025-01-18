@@ -7,7 +7,7 @@ set -o nounset
 set -o pipefail
 set -o noclobber
 
-links_mirror() {
+links-mirror() {
   cat .lycheecache |
     awk -F, '{print $1}' |
     sort -u |
@@ -26,7 +26,7 @@ links_mirror() {
 }
 
 main() {
-  links_mirror
+  links-mirror
 }
 
 main

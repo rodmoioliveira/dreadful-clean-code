@@ -32,6 +32,12 @@ dprint-check: ## Dprint check
 dprint-fmt: ## Dprint format
 	@dprint fmt
 
+links-check: ## Check links
+	@./dev/links-check.sh
+
+links-mirror: ## Check links
+	@./dev/links-mirror.sh
+
 makefile-descriptions: ## Check if all Makefile rules have descriptions
 	@./dev/makefile-descriptions.sh
 
@@ -51,6 +57,8 @@ typos-fix: ## Fix typos
 .PHONY: dprint-check
 .PHONY: dprint-fmt
 .PHONY: help
+.PHONY: links-check
+.PHONY: links-mirror
 .PHONY: makefile-descriptions
 .PHONY: typos
 .PHONY: typos-fix
