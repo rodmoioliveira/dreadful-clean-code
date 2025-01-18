@@ -20,7 +20,7 @@ bash-fmt: ## Format bash code
 bash-lint: ## Check lint bash code
 	@find . -type f -name "*.sh" -not -path "./target/*" | xargs shellcheck -o all
 
-doc-changelog: ## Write CHANGELOG.mode
+doc-changelog: ## Write CHANGELOG.md
 	@git cliff -o CHANGELOG.md
 
 doc-readme: ## Write README.md
@@ -35,7 +35,7 @@ dprint-fmt: ## Dprint format
 links-check: ## Check links
 	@./dev/links-check.sh
 
-links-mirror: ## Check links
+links-mirror: ## Mirror links
 	@./dev/links-mirror.sh
 
 makefile-descriptions: ## Check if all Makefile rules have descriptions
