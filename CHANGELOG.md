@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.10.0](https://github.com/rodmoioliveira/dreadful-clean-code/compare/0.9.0...0.10.0) - 2025-01-24
+
+[1e8017c](https://github.com/rodmoioliveira/dreadful-clean-code/commit/1e8017cef9578f9af57f8ca06da45f2d13a20b60)...[c413a4b](https://github.com/rodmoioliveira/dreadful-clean-code/commit/c413a4b5db862940ad24375657f07b90791e1d43)
+
+### Bug Fixes
+
+- [5ae26e1](https://github.com/rodmoioliveira/dreadful-clean-code/commit/5ae26e156beecfa17e05c72bf8e479ecc8352a95) - Fix github-page rendering, again
+
+### Documentation
+
+- [c413a4b](https://github.com/rodmoioliveira/dreadful-clean-code/commit/c413a4b5db862940ad24375657f07b90791e1d43) - Rename title in README
+
 ## [0.9.0](https://github.com/rodmoioliveira/dreadful-clean-code/compare/0.8.0...0.9.0) - 2025-01-24
 
 [6eae6ab](https://github.com/rodmoioliveira/dreadful-clean-code/commit/6eae6abdc6dadb803df617e394cec2ef549ec220)...[1e8017c](https://github.com/rodmoioliveira/dreadful-clean-code/commit/1e8017cef9578f9af57f8ca06da45f2d13a20b60)
