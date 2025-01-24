@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.11.0](https://github.com/rodmoioliveira/dreadful-clean-code/compare/0.10.0...0.11.0) - 2025-01-24
+
+[c413a4b](https://github.com/rodmoioliveira/dreadful-clean-code/commit/c413a4b5db862940ad24375657f07b90791e1d43)...[34f3a07](https://github.com/rodmoioliveira/dreadful-clean-code/commit/34f3a076c58eaa0864c8424609a48d86bdb4a86b)
+
+### Features
+
+- [34f3a07](https://github.com/rodmoioliveira/dreadful-clean-code/commit/34f3a076c58eaa0864c8424609a48d86bdb4a86b) - Add hacker gh-page theme
+
 ## [0.10.0](https://github.com/rodmoioliveira/dreadful-clean-code/compare/0.9.0...0.10.0) - 2025-01-24
 
 [1e8017c](https://github.com/rodmoioliveira/dreadful-clean-code/commit/1e8017cef9578f9af57f8ca06da45f2d13a20b60)...[c413a4b](https://github.com/rodmoioliveira/dreadful-clean-code/commit/c413a4b5db862940ad24375657f07b90791e1d43)
