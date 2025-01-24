@@ -1,4 +1,4 @@
-# dreadful clean code
+# dreadful-clean-code
 
 _Dreadful Clean Code_ is an awesome list of rebuttals to a dreadful idea.
 

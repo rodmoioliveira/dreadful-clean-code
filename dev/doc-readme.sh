@@ -38,7 +38,7 @@ backlink() {
 
 readme() {
   cat <<EOF >|README.md
-# dreadful clean code
+# dreadful-clean-code
 
 *Dreadful Clean Code* is an awesome list of rebuttals to a dreadful idea.
 
