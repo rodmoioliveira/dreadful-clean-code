@@ -92,7 +92,7 @@ _Dreadful Clean Code_ is an awesome list of rebuttals to a dreadful idea.
 [back^](#index)
 
 - ["Clean" Code, Horrible Performance](https://www.computerenhance.com/p/clean-code-horrible-performance) by [Casey Muratori](https://twitter.com/cmuratori)
-- ["Clean" Code: Horrible Performance | Full Interview](https://www.youtube.com/watch?v=OtozASk68Os) with [The Primeagen](https://www.twitch.tv/ThePrimeagen) and [Casey Muratori](https://twitter.com/cmuratori)
+- ["Clean" Code: Horrible Performance - Full Interview](https://www.youtube.com/watch?v=OtozASk68Os) with [The Primeagen](https://www.twitch.tv/ThePrimeagen) and [Casey Muratori](https://twitter.com/cmuratori)
 - [Beyond SOLID: The Dependency Elimination Principle](https://qualityisspeed.blogspot.com/2014/09/beyond-solid-dependency-elimination.html) by [Brian Geihsler](https://twitter.com/BrianGeihsler)
 - [Deconstructing SOLID design principles](https://www.tedinski.com/2019/04/02/solid-critique.html) by [Ted Kaminski](https://www.tedinski.com/about/)
 - [Is Uncle Bob serious?](https://dev.to/bosepchuk/is-uncle-bob-serious-dhi) by [Blaine Osepchuk](https://dev.to/bosepchuk)
