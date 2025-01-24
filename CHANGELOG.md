@@ -1,5 +1,26 @@
 # Changelog
 
+## [0.9.0](https://github.com/rodmoioliveira/dreadful-clean-code/compare/0.8.0...0.9.0) - 2025-01-24
+
+[6eae6ab](https://github.com/rodmoioliveira/dreadful-clean-code/commit/6eae6abdc6dadb803df617e394cec2ef549ec220)...[1e8017c](https://github.com/rodmoioliveira/dreadful-clean-code/commit/1e8017cef9578f9af57f8ca06da45f2d13a20b60)
+
+### Bug Fixes
+
+- [1e8017c](https://github.com/rodmoioliveira/dreadful-clean-code/commit/1e8017cef9578f9af57f8ca06da45f2d13a20b60) - Fix github-page rendering
+
+### CI
+
+- [248aae1](https://github.com/rodmoioliveira/dreadful-clean-code/commit/248aae11f804ac857e16b80303f2ff3b29b9351c) - Add links-* recipes in Makefile
+- [97ff438](https://github.com/rodmoioliveira/dreadful-clean-code/commit/97ff4386dde32869349059c26dc2f50b8ad0efab) - Add dependabot
+
+### Documentation
+
+- [d5abbcf](https://github.com/rodmoioliveira/dreadful-clean-code/commit/d5abbcfd97c31b3a30b35f57e3846ff28201f51a) - Fix typo in Makefile
+
+### Miscellaneous Tasks
+
+- [7e01d53](https://github.com/rodmoioliveira/dreadful-clean-code/commit/7e01d530e89f36c552d398afdfe4f0421a831ff1) - Rename HOW_TO_RELEASE to RELEASE
+
 ## [0.8.0](https://github.com/rodmoioliveira/dreadful-clean-code/compare/0.7.1...0.8.0) - 2025-01-18
 
 [5369826](https://github.com/rodmoioliveira/dreadful-clean-code/commit/5369826e6effed6456280aca74ab6673fb44d05c)...[6eae6ab](https://github.com/rodmoioliveira/dreadful-clean-code/commit/6eae6abdc6dadb803df617e394cec2ef549ec220)
