@@ -1,5 +1,23 @@
 # Changelog
 
+## [0.12.0](https://github.com/rodmoioliveira/dreadful-clean-code/compare/0.11.0...0.12.0) - 2025-05-04
+
+[34f3a07](https://github.com/rodmoioliveira/dreadful-clean-code/commit/34f3a076c58eaa0864c8424609a48d86bdb4a86b)...[fed8d87](https://github.com/rodmoioliveira/dreadful-clean-code/commit/fed8d871f63eba35a94a1b31d392e20e801be4a3)
+
+### CI
+
+- [f5a6c0d](https://github.com/rodmoioliveira/dreadful-clean-code/commit/f5a6c0dd22875071d80abba07698b2fd079074a8) - Remove webi.sh
+- [3fe79f5](https://github.com/rodmoioliveira/dreadful-clean-code/commit/3fe79f52bb9b2b450ae4ccd301059e543e9fee8f) - Change schedule
+
+### Features
+
+- [fed8d87](https://github.com/rodmoioliveira/dreadful-clean-code/commit/fed8d871f63eba35a94a1b31d392e20e801be4a3) - Add "A Philosophy of Software Design vs Clean Code"
+
+### Miscellaneous Tasks
+
+- [213a450](https://github.com/rodmoioliveira/dreadful-clean-code/commit/213a450ea72df2af907710a70afa2edaf4b32ed2) - Remove hacker gh-page theme
+- [d091890](https://github.com/rodmoioliveira/dreadful-clean-code/commit/d09189002174fd978b5a9e298a4893b0f90d3f21) - Alter schedule for cron
+
 ## [0.11.0](https://github.com/rodmoioliveira/dreadful-clean-code/compare/0.10.0...0.11.0) - 2025-01-24
 
 [c413a4b](https://github.com/rodmoioliveira/dreadful-clean-code/commit/c413a4b5db862940ad24375657f07b90791e1d43)...[34f3a07](https://github.com/rodmoioliveira/dreadful-clean-code/commit/34f3a076c58eaa0864c8424609a48d86bdb4a86b)
