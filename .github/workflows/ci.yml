@@ -43,7 +43,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
       - name: dprint-check-action
-        uses: dprint/check@v2.2
+        uses: dprint/check@v2.3
   links-check:
     name: links-check
     runs-on: ubuntu-latest
