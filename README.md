@@ -91,6 +91,7 @@ _Dreadful Clean Code_ is an awesome list of rebuttals to a dreadful idea.
 
 [back^](#index)
 
+- ["Clean Code" is bad. What makes code "maintainable"? part 1 of n](https://youtu.be/8ncQrGuunHY) by [Internet of Bugs](https://www.youtube.com/@InternetOfBugs)
 - ["Clean" Code, Horrible Performance](https://www.computerenhance.com/p/clean-code-horrible-performance) by [Casey Muratori](https://twitter.com/cmuratori)
 - ["Clean" Code: Horrible Performance Full Interview](https://www.youtube.com/watch?v=OtozASk68Os) with [The Primeagen](https://www.twitch.tv/ThePrimeagen) and [Casey Muratori](https://twitter.com/cmuratori)
 - [A Philosophy of Software Design vs Clean Code](https://github.com/johnousterhout/aposd-vs-clean-code) by [John Ousterhout](https://twitter.com/JohnOusterhout)
