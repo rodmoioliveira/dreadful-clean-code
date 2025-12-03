@@ -1,5 +1,20 @@
 # Changelog
 
+## [0.13.0](https://github.com/rodmoioliveira/dreadful-clean-code/compare/0.12.0...0.13.0) - 2025-12-03
+
+[fed8d87](https://github.com/rodmoioliveira/dreadful-clean-code/commit/fed8d871f63eba35a94a1b31d392e20e801be4a3)...[ac835f4](https://github.com/rodmoioliveira/dreadful-clean-code/commit/ac835f4fc52c011e6c764c9c11bed6d6ec9c80b8)
+
+### Dependencies
+
+- [fcc5300](https://github.com/rodmoioliveira/dreadful-clean-code/commit/fcc53001dbaa7f049ad1a3e778a8e421f731ebf1) - Bump dprint/check from 2.2 to 2.3
+- [19db732](https://github.com/rodmoioliveira/dreadful-clean-code/commit/19db73216b1c64935319eca019dc69b650309125) - Bump actions/checkout from 4 to 5
+- [b9a6875](https://github.com/rodmoioliveira/dreadful-clean-code/commit/b9a68757dc89efe8fe58a19bfcee7eaa9ebc1d8c) - Bump peter-evans/create-issue-from-file from 5 to 6
+- [d7f3f02](https://github.com/rodmoioliveira/dreadful-clean-code/commit/d7f3f02a2948c5b06da4ccc33a4d96620851d589) - Bump actions/checkout from 5 to 6
+
+### Features
+
+- [ac835f4](https://github.com/rodmoioliveira/dreadful-clean-code/commit/ac835f4fc52c011e6c764c9c11bed6d6ec9c80b8) - Add youtube video from Internet of Bugs
+
 ## [0.12.0](https://github.com/rodmoioliveira/dreadful-clean-code/compare/0.11.0...0.12.0) - 2025-05-04
 
 [34f3a07](https://github.com/rodmoioliveira/dreadful-clean-code/commit/34f3a076c58eaa0864c8424609a48d86bdb4a86b)...[fed8d87](https://github.com/rodmoioliveira/dreadful-clean-code/commit/fed8d871f63eba35a94a1b31d392e20e801be4a3)
