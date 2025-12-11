@@ -1,7 +1,8 @@
 # Changelog
 
-## [unreleased]
+## [0.14.0](https://git.sr.ht/~rodmoi/dreadful-clean-code/refs/0.14.0) - 2025-12-11
 
+- [9740b8d](https://git.sr.ht/~rodmoi/dreadful-clean-code/commit/9740b8d2f0315398f2f54ceb265dd943b29354ce) - **Features:** Move code to sourcehut
 - [8e7b512](https://git.sr.ht/~rodmoi/dreadful-clean-code/commit/8e7b5123ba51adfc0b49a2fef0765e507b1d3138) - **Releases:** 0.13.0
 
 ## [0.13.0](https://git.sr.ht/~rodmoi/dreadful-clean-code/refs/0.13.0) - 2025-12-03
