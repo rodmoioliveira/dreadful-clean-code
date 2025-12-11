@@ -40,6 +40,11 @@ readme() {
   cat <<EOF >|README.md
 # dreadful-clean-code
 
+[![builds.sr.ht status](https://builds.sr.ht/~rodmoi.svg)](https://builds.sr.ht/~rodmoi?)
+
+> [!IMPORTANT]
+>  This repo was [moved](https://git.sr.ht/~rodmoi/dreadful-clean-code) to [sourcehut](https://sr.ht/)!
+
 *Dreadful Clean Code* is an awesome list of rebuttals to a dreadful idea.
 
 # index

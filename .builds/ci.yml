@@ -1,0 +1,44 @@
+image: debian/stable
+packages:
+  - tar
+  - unzip
+  - wget
+sources:
+  - https://git.sr.ht/~rodmoi/dreadful-clean-code
+tasks:
+  - makefile-descriptions: |
+      cd dreadful-clean-code
+      make makefile-descriptions
+  - bash-check: |
+      cd dreadful-clean-code
+      sudo apt install shfmt -y
+      make bash-check
+  - bash-lint: |
+      cd dreadful-clean-code
+      sudo apt install shellcheck -y
+      make bash-lint
+  - dprint-check: |
+      cd dreadful-clean-code
+      curl -fsSL https://dprint.dev/install.sh | sh
+      git ls-files | xargs $HOME/.dprint/bin/dprint check
+  - typos: |
+      cd dreadful-clean-code
+      wget -qO- https://github.com/crate-ci/typos/releases/download/v1.40.0/typos-v1.40.0-x86_64-unknown-linux-musl.tar.gz |
+        tar xzfv - ./typos
+      ./typos --config _typos.toml
+  - links-check: |
+      cd dreadful-clean-code
+      wget -qO- https://github.com/lycheeverse/lychee/releases/latest/download/lychee-x86_64-unknown-linux-musl.tar.gz |
+        tar xzfv - lychee
+      if ! ./lychee \
+        --base-url 'https://git.sr.ht/~rodmoi/dreadful-clean-code' \
+        --exclude '(linkedin|substack|dreadful-clean-code)' \
+        --exclude-path CHANGELOG.md \
+        --no-progress \
+        --timeout 3 \
+        --verbose \
+        './**/*.md'; then
+        echo error
+      else
+        echo ok
+      fi

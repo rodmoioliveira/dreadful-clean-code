@@ -8,16 +8,18 @@ set -o pipefail
 set -o noclobber
 
 links-check() {
-  lychee \
-    --cache \
-    --max-cache-age 5d \
-    --base 'https://github.com/rodmoioliveira/dreadful-clean-code' \
-    --verbose \
-    --no-progress \
+  if ! lychee \
+    --base-url 'https://git.sr.ht/~rodmoi/dreadful-clean-code' \
+    --exclude '(linkedin|substack|dreadful-clean-code)' \
     --exclude-path CHANGELOG.md \
-    --exclude '(linkedin|substack)' \
-    './**/*.md'
-  cat .lycheecache | sort >.lycheecache_sorted && mv .lycheecache_sorted .lycheecache
+    --no-progress \
+    --timeout 3 \
+    --verbose \
+    './**/*.md'; then
+    echo error
+  else
+    echo ok
+  fi
 }
 
 main() {
